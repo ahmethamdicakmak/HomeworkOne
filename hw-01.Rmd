@@ -1,0 +1,73 @@
+---
+title: "Homework 1"
+author: "Ahmet Hamdi Çakmak-20080382" 
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+I love my **friends.**
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+I like *computer* games.
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+He bought a new ***Ferrari***.
+
+**Question 4** With Markdown write an unordered list with three items.
+
+\*Orange
+
+\*Banana
+
+\*Cherry
+
+\*Apricot
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1.  Napoli
+
+2.  Arsenal
+
+3.  Braga
+
+4.  Sevilla
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[Youtube!](https://www.youtube.com/)
+
+**Question 7** With Markdown add a cat picture.
+
+[cat!](https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=675%2Cq=85%2Cwidth=1200/wp-content/uploads/international-cat-day1-scaled.jpg)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+head(pressure)
+summary(pressure)
+
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$$
+\sqrt{\frac{a}{b}}
+$$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+    ## [1] 7
